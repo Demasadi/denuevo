@@ -1,6 +1,11 @@
-*{
-	margin: 20px;
-	padding: 50px;
+* {
+    margin-top: 35px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 60px;
+    text-align: right;
+    margin-right: 145px;
+    color: white;
+    margin-bottom: 0px;
 }
 
 body{
@@ -25,12 +30,13 @@ header{
 
 nav{
 	background: #F0B429;
-	height: 50px;
+	height: 10px ;
 }
 
 nav li{
+	background: #F0B429;
 	list-style: none;
-	padding: 10px 0px;
+	padding: 05px 0px;
 }
 
 nav a{
@@ -47,8 +53,8 @@ nav a:hover{
 }
 
 #contenido{
-	float: left;
-	width: 400px;
+	float: right;
+	width: 350px;
 	background: #0B2161;
 	border-radius: 5px;
 	overflow: hidden;
