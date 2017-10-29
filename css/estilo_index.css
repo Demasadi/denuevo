@@ -1,8 +1,6 @@
 * {
     margin-top: 35px;
     font-family: 'Libre Franklin', sans-serif;
-    font-size: 60px;
-    text-align: right;
     margin-right: 145px;
     color: white;
     margin-bottom: 0px;
@@ -29,6 +27,7 @@ header{
 }
 
 nav{
+	float: right;
 	background: #F0B429;
 	height: 10px ;
 }
@@ -54,7 +53,7 @@ nav a:hover{
 
 #contenido{
 	float: right;
-	width: 350px;
+	width: 100px;
 	background: #0B2161;
 	border-radius: 5px;
 	overflow: hidden;
@@ -65,10 +64,26 @@ nav a:hover{
 
 }
 
-.section h1{
-	font-size: 40px;
+h1{
 	padding: 10px;
 	color: #FFFFFF;
 	border-bottom: 3px solid #FFFFFF;
 	font-family: 'Libre Franklin', sans-serif;
 }
+
+p{
+	font-size: 13px;
+	padding: 10px;
+	color: #FFFFFF;
+	border-bottom: 3px solid #FFFFFF;
+	font-family: 'Libre Franklin', sans-serif;
+}
+
+aside{
+	float: left;
+	width: 100px;
+	background: #FFFFFF;
+	margin-top: 15px;
+	border-radius: 10px;
+}
+
