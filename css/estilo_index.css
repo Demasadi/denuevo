@@ -27,9 +27,8 @@ header{
 }
 
 nav{
-	float: right;
 	background: #F0B429;
-	height: 10px ;
+	height: 05px ;
 }
 
 nav li{
@@ -52,7 +51,7 @@ nav a:hover{
 }
 
 #contenido{
-	float: right;
+	float: center;
 	width: 100px;
 	background: #0B2161;
 	border-radius: 5px;
@@ -81,7 +80,7 @@ p{
 
 aside{
 	float: left;
-	width: 100px;
+	width: 150px;
 	background: #FFFFFF;
 	margin-top: 15px;
 	border-radius: 10px;
